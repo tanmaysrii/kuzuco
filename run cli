@@ -1,0 +1,1 @@
+ docker run --pull always --rm --runtime=nvidia --gpus all -e CACHE_DIRECTORY=/root/models  -v ~/.kuzco/models:/root/models kuzcoxyz/amd64-ollama-nvidia-worker --worker mllc0GXodr41BaF3TV3G0 --code 5e5ae500-bfc3-496c-82aa-2019b871ca88
